@@ -7,9 +7,9 @@ import Formulario from '../models/Cita.js'
             .find({
                 $or: [
                     { Nombre_Mascota: new RegExp(value, 'i') },
-                    { Propietario: new RegExp(value, 'i') },
-                    { Telefono: new RegExp(value, 'i') },
-                    { Sintomas: new RegExp(value, 'i') },
+                    //{ Propietario: new RegExp(value, 'i') },
+                    //{ Telefono: new RegExp(value, 'i') },
+                    //{ Sintomas: new RegExp(value, 'i') },
                     //{ Hora: new RegExp(value, 'i')},
                     //{ Fecha: new RegExp(value, 'i')}
 
