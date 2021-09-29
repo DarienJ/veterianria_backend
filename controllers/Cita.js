@@ -6,7 +6,7 @@ import Formulario from '../models/Cita.js'
         const formulario = await Formulario
             .find({
                 $or: [
-                    { Nombre_Mascota: new RegExp(value, 'i') },
+                    { Nombre_Mascota: new RegExp(value, 'i') }
                     //{ Propietario: new RegExp(value, 'i') },
                     //{ Telefono: new RegExp(value, 'i') },
                     //{ Sintomas: new RegExp(value, 'i') },
